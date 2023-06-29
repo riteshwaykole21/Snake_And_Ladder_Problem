@@ -17,9 +17,8 @@ namespace SnakeLadder
         public void PlayerDieRoll()
         {
             Random random = new Random();
-            int diceRoll = random.Next(1,7);
+            int diceRoll = random.Next(1, 7);
             Console.WriteLine($"The Player Get Number {diceRoll} on Die Roll");
         }
-      
     }
 }
