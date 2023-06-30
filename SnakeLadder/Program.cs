@@ -11,8 +11,8 @@ namespace SnakeLadder
         static void Main(string[] args)
         {
             GamePlay gamePlay = new GamePlay();
-            gamePlay.Play();
             gamePlay.PlayerDieRoll();
+            gamePlay.CheckOption();
             Console.ReadLine();
         }
     }
